@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+</head>
+<img src="image.html/picture2.jpg" height="200" width="200">
+<h1 style="color: rgb(172, 4, 15);">LOGIN PAGE</h1>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">HOMEPAGE</a></li>
+            <li><a style="color: rgb(160, 3, 14);" href="login.html">LOGIN PAGE</a></li>
+            <li><a href="showroom.html">SHOWROOM</a></li>
+            <li><a href="Aboutus.html">ABOUT US</a></li>
+            <li><a href="Contactus.html">CONTACT US</a></li>
+        </ul>
+    </header>
+    <h2>LOGIN DETAILS</h2>
+    <p>If <b>already registered </b>tap the button below</p>
+    <br>
+    <button><a href="showroom.html">LOGIN</a></button>
+    <br>
+    <p> If not ,then <b>sign up </b>below </p>
+
+   
+    <form action="https://httpbin.org/post" method="post">
+    <fieldset>
+        <legend>SIGN UP HERE</legend>
+        
+
+        <label for="firstName">First Name:</label>
+        <input type="text" name="firstName" id="firstName" required="" placeholder="EnockBenz" autofocus autocomplete="on"/>
+        <br/>
+        <br/>
+        <label for="lastName">Last Name:</label>
+        <input type="text" name="lastName" id="lastName"required="" placeholder="Cheruyot" autocomplete="on"/>
+        <br/>
+        <br/>
+        <label for="tel">Phone Number:</label>
+        <input type="tel" name="Phone" id="Phone" maxlength="10" required="" placeholder="0727864811" autocomplete="on" pattern="[0-9]{10}"/>
+        <br/>
+        <br>
+        <label for="dob">Date Of Birth:</label>
+        <input type="date" name="dob" id="dob" required=""  max="01-01-2011"/>
+        <br>
+        <br/>
+        <label for="emailAddress">Email Addres:</label>
+        <input type="email" name="email" id="emailAddress"required="" placeholder="bensonkings81@gmail.com" autocomplete="on"/>
+        <br/>
+        <br/>
+        <label for="gender" >GENDER:</label>
+
+        <label for="male">Male</label>
+        <input type="radio" id=" male" name="gender"value=" male">
+
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value="female">
+
+        <label for="other">Other</label>
+        <input type="radio" id="other" name="gender" value="other">
+        <br/>
+        <br/>
+        <P><b>How many seater are you looking for:</b></P>
+        <label for="seater">Carrying Capacity:</label>
+        <input type="number" min="2" max="14"/>
+        <br>
+       
+        <!--This block of code lists all Kenyan counties-->
+        <br>
+        <label for="county">Place Of Delivery:</label>
+        <input type="text" name="county" id="county" list="county-list">
+        <datalist id="county-list">
+            <option value="Mombasa">
+            <option value="Kwale">
+            <option value="Kilifi">
+            <option value="Tana River">
+            <option value="Taita Taveta">
+            <option value="Garissa">
+            <option value="Wajir">
+            <option value="Mandera">
+            <option value="Marsabit">
+            <option value="Isiolo">
+            <option value="Meru">
+            <option value="Tharaka-Nithi">
+            <option value="Embu">
+            <option value="Kitui">
+            <option value="Machakos">
+            <option value="Makueni">
+            <option value="Nyandarua">
+            <option value="Nyeri">
+            <option value="Kirinyaga">
+            <option value="Muranga">
+            <option value="Kiambu">
+            <option value="Turkana">
+            <option value= "West Pokot">
+            <option value="Samburu">
+            <option value="Trans Nzoia">
+            <option value="Uasin Gishu">
+            <option value="Elgeyo/Marakwet">
+            <option value="Nandi">
+            <option value=" Baringo">
+            <option value="Laikipia">
+            <option value="Nakuru">
+            <option value="Narok">
+            <option value="Kajiado">
+            <option value="Kericho">
+            <option value="Bomet">
+            <option value="Kakamega">
+            <option value="Vihiga">
+            <option value="Bungoma">
+            <option value="Busia">
+            <option value="Siaya">
+            <option value="Kisumu">
+            <option value="Homa Bay">
+            <option value="Migori">
+            <option value="Kisii">
+            <option value=" Nyamira">
+            <option value="Nairobi City">
+        </datalist>
+                
+        
+            
+     
+       
+        <br> 
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" name="Password" id="Password" required=""/>
+        <br> 
+        <p><b>Confirm Your Password:</b></p>
+        <label for="password">Password:</label>
+        <input type="password" name="Password" id="Password" required=""/>
+        <br/>
+        <br/>
+
+        <button type="submit">REGISTER</button>
+    </fieldset>
+
+</body>
+</html>
